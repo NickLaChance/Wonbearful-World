@@ -1,0 +1,248 @@
+/* Global */
+* {
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+
+}
+/* Body GLobal */
+html body {
+  border: 5px groove brown;
+  font-size: 1em;
+  padding: 1%;
+  background-color: tan;
+  color: white;
+}
+/* Top of Body (Header) */
+#title {
+  text-align: center;
+  border: 4px solid black;
+  background-color: orange;
+  color: forestgreen;
+  font-size: 6em;
+  position: relative;
+  top: 0;
+  left: 10%;
+  padding: 8px;
+  width: 80%;
+}
+
+
+#gif1 {
+  position: absolute;
+  top: 0 ;
+  left: 0;
+  margin: 12px;
+  height: 18%;
+  width: 10%;
+}
+
+#gif2 {
+  position: absolute;
+  top: 0 ;
+  right: 0;
+  margin: 12px;
+  height: 18%;
+  width: 10%;
+}
+
+.container {
+  background-color: black;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+}
+
+.box {
+  background-color: orange;
+  width: 20%;
+  color: brown;
+  padding: 8px;
+  margin: 2px;
+  border: 2px solid maroon;
+}
+
+.box h2 {
+  font-size: 1.75em;
+  color: white;
+  border-bottom: 2px dashed green;
+  padding: 1%;
+  margin: 1%;
+}
+
+.box p {
+  background-color: forestgreen;
+  color: white;
+  font-size: 1.2em;
+  border: 2px solid green;
+  padding: 2%;
+  margin: 1%;
+}
+
+.containerTwo {
+  margin: 4px;
+  padding: 4px;
+  position: relative;
+  top: 30px;
+  left: auto;
+  top: 5px;
+  left: auto;
+  display: flex;
+}
+
+.topImages {
+  width: 30%;
+  height: 40%;
+}
+
+#bigBear {
+  width: auto;
+  height: 450px;
+}
+
+.subTitle {
+  text-align: center;
+  border: 2px solid black;
+  background-color: red;
+  color: forestgreen;
+  font-size: 3em;
+  margin: 5px;
+  margin-top: 30px;
+  padding: 8px;
+  width: 1300px;
+  position: relative;
+  top: 5px;
+  left: 8%;
+}
+
+.para {
+  display: grid;
+  font-size: 1.22em;
+  background: orange;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  margin: 5px;
+}
+
+.form {
+  background-color: orange;
+  width: 333px;
+  text-align: center;
+  margin: 15px;
+  padding: 5px;
+  position: relative;
+  top: 30px;
+  left: 25px;
+  display: table;
+}
+
+.favorite h2 {
+  font-size: 2em;
+  color: darkgray;
+  border-bottom: 3px solid green;
+  padding: 5px;
+  margin: 3px;
+}
+
+.favorite {
+  font-size: 1.25em;
+  color: black;
+  border: 2px solid darkgreen;
+  width: 250px;
+  margin: 5px;
+}
+
+.fav1 {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+
+.fav2 {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+
+.submit {
+  font-size: 1.5em;
+  color: blue;
+  background: red;
+  border: 2px solid red;
+  width: 100px;
+  height: 50%;
+  margin: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+  position: relative;
+  top: 30%;
+  left: auto;
+}
+
+.grizzly {
+  margin: 10px;
+  width: 400px;
+  position: relative;
+  bottom: 120px;
+  left: 20%;
+}
+
+.grizzly figcaption {
+  font-size: 1em;
+  color: black;
+  border: 2px solid black;
+  background: white;
+  text-align: justify;
+  padding: 5px;
+  position: relative;
+  bottom: 130px;
+  left: 20%;
+  width: 260px;
+}
+
+.sec2 {
+  display: table;
+}
+
+.sec2 h2 {
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  background: orange;
+  border: 4px solid black;
+  width: 700px;
+  position: relative;
+  top: auto;
+  left: 23%;
+  margin-top: 20px;
+  margin: 10px;
+  padding: 5px;
+}
+
+#traits {
+  background: black;
+  border: 5px solid darkgreen;
+  position: relative;
+  top: auto;
+  left: auto;
+  padding: 10px;
+}
+
+#traits th {
+  font-size: 1.5em;
+  color: darkblue;
+  margin: 5px;
+  padding: 5px;
+  display: table-cell;
+  background: darkgray;
+}
+
+#traits td {
+  display: table-cell;
+  color: blue;
+  font-size: 1;
+  margin: 2px;
+  padding: 5px;
+  background: gray;
+}
